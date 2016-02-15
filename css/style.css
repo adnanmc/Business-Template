@@ -1,0 +1,252 @@
+/* bootstarp starter template code */
+
+body {
+  padding-top: 50px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* navigation adjustment */
+.nav {
+  margin-top: 18px;
+  
+}
+
+/* adjusting for the logo size */
+.navbar {
+  min-height: 90px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  height: auto;
+  padding-top: 15px;
+  margin: 0;
+}
+
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-nav li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* making links larger */
+.navbar-nav > li > a {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-right: 1px solid #ccc;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* adjusting and moving down description text for each link */
+.navbar-nav > li > a > span {
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-size: 14px;
+  display: block;
+  font-weight: normal;
+  font-family: arial;
+  text-transform: none;
+}
+
+/* adjust background color for the nav links */
+
+.navbar-nav a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background: #0383c0 !important;
+  color: #fff !important;
+}
+
+
+/* index page focus */
+
+/* adjusting and adding background image to main jumbotron */
+.jumbotron {
+  margin: 0 !important;
+  min-height: 450px;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* default style for font */
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* adjusting h1 for main jumbotron */
+.jumbotron h1 {
+  font-size: 55px;
+}
+
+
+/* adjusting font awesome icon color */
+
+.fa-color {
+  color: #0383c0;
+}
+
+
+/* adjusting section-gray */
+
+.section-gray {
+  background: #f4f4f4;
+}
+
+
+/* adjusting section-primary */
+
+.section-primary {
+  background: #0383c0;
+  color: #fff;
+  padding: 60px 0;
+  
+}
+
+
+/* adjusting section-secondary */
+
+.section-secondary {
+  background: #e44d26;
+  color: #fff;
+  padding: 60px 0;
+  
+}
+
+
+.slogan {
+  text-align: center;
+}
+
+
+.slogan h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+
+.slogan p {
+  font-size: 20px;
+}
+
+
+.slogan a {
+  margin-top: 20px;
+}
+
+
+/* adjusting feature list */
+
+.feature-list li {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+
+/* adjusting footer */
+
+footer {
+  text-align: center;
+  height: 60px;
+  background: #f4f4f4;
+  padding-top: 20px;
+}
+
+
+
+/* about page focus */
+
+
+/* adjusting main heading */
+
+.section-title {
+  padding:10px;
+  background:#0383c0;
+  color:#fff;
+  margin-top: 30px;
+}
+
+.section-title small {
+  color:#ccc !important;
+}
+
+
+/* media query */
+
+@media(max-width:990px){
+	.navbar-header{
+		float:none;
+	}
+
+	.navbar-left, .navbar-right{
+		float:none !important;
+	}
+
+	.navbar-toggle{
+		display: block;
+        margin-top: 26px;
+	}
+  
+   
+
+	.navbar-collapse{
+		border-top:1px solid transparent;
+		box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+
+	.navbar-fixed-top{
+		top:0;
+		border-width:0 0 1px;
+	}
+
+	.navbar-collapse.collapse{
+		display:none !important;
+	}
+
+	.navbar-nav{
+		float:none;
+		margin-top:7.5px;
+	}
+
+	.navbar-nav > li{
+		float:none;
+	}
+
+	.navbar-nav > li > a{
+		padding-top:10px;
+		padding-bottom:10px;
+		border-right:none;
+	}
+
+	.collapse.in{
+		display:block !important;
+	}
+  
+}
+
+
+@media(max-width:768px){
+	.jumbotron{
+		min-height:300px;
+	}
+
+	.jumbotron img{
+		display:none;
+	}
+}
